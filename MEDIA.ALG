@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Faça um algoritmo que
+//               calcule a média entre duas notas informadas
+//               pela entrada de dados.
+// Autor(a)    : Sarah
+// Data atual  : 01/08/2022
+Var
+// Seção de Declarações das variáveis 
+nota1,nota2,media:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Informe a primeira nota:")
+leia(nota1)
+escreva("Informe a segunda nota:")
+leia(nota2)
+media <- (nota1 + nota2) / 2
+escreva("Sua média é:",media)
+Fimalgoritmo
